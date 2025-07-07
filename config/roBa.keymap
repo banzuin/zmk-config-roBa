@@ -83,7 +83,7 @@
 &kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW      &kp LC(TAB)              &kp TAB                                      &none        &kp F7     &kp LG(W)  &mo 5      &kp DELETE
 &kp HOME        &kp LEFT_ARROW          &lt 5 DOWN_ARROW  &kp RIGHT_ARROW          &kp END      &none            &none          &mkp MB4     &mkp MB1   &mkp MB3   &mkp MB2   &mkp MB5
 &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &kp DOWN_ARROW    &kp LG(LS(RIGHT_ARROW))  &none        &none            &none          &kp LG(A)    &kp LG(V)  &kp LG(C)  &kp RG(X)  &kp LG(Z)
-&none           &none                   &none             &lt 5 LANG2              &lt 2 SPACE  &lt 1 LANG1      &kp BACKSPACE  &lt 6 ENTER                                   &tog 5
+&mo 1           &none                   &none             &lt 5 LANG2              &lt 2 SPACE  &lt 5 LANG1      &kp BACKSPACE  &lt 6 ENTER                                   &tog 5
             >;
         };
 
