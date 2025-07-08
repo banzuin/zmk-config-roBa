@@ -38,21 +38,6 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
-
-        chara {
-            bindings = <&to 5>;
-            key-positions = <39 41>;
-        };
-
-        num {
-            bindings = <&to 7>;
-            key-positions = <38 41>;
-        };
-
-        chara2 {
-            bindings = <&to 5>;
-            key-positions = <37 41>;
-        };
     };
 
     macros {
@@ -83,7 +68,7 @@
 &kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW      &kp LC(TAB)              &kp TAB                                      &none        &kp F7     &kp LG(W)  &mo 5      &kp DELETE
 &kp HOME        &kp LEFT_ARROW          &lt 5 DOWN_ARROW  &kp RIGHT_ARROW          &kp END      &none            &none          &mkp MB4     &mkp MB1   &mkp MB3   &mkp MB2   &mkp MB5
 &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &kp DOWN_ARROW    &kp LG(LS(RIGHT_ARROW))  &none        &none            &none          &kp LG(A)    &kp LG(V)  &kp LG(C)  &kp RG(X)  &kp LG(Z)
-&mo 1           &none                   &none             &lt 5 LANG2              &lt 7 SPACE  &lt 5 LANG1      &kp BACKSPACE  &lt 6 ENTER                                   &to 0
+&to 5           &to 7                   &mo 6             &lt 5 LANG2              &lt 7 SPACE  &lt 5 LANG1      &kp BACKSPACE  &lt 1 ENTER                                   &to 0
             >;
         };
 
@@ -128,7 +113,7 @@
 &kp Q             &kp W         &kp E     &kp R   &kp T                                    &kp Y   &kp U  &kp I      &kp O    &kp P
 &kp A             &kp S         &kp D     &kp F   &kp G   &none          &kp SINGLE_QUOTE  &kp H   &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT V  &kp X         &kp C     &kp Z   &kp B   &kp COLON      &kp SEMICOLON     &kp N   &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&to 5             &kp LEFT_ALT  &kp LGUI  &trans  &trans  &trans         &trans            &trans                             &trans
+&trans            &kp LEFT_ALT  &kp LGUI  &trans  &trans  &trans         &trans            &trans                             &trans
             >;
         };
 
