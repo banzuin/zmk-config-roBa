@@ -45,7 +45,7 @@
         };
 
         reload {
-            bindings = <&kp F5>;
+            bindings = <&kp LG(R)>;
             key-positions = <7 8>;
         };
 
