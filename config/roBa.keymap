@@ -41,7 +41,7 @@
 
         closewindow {
             bindings = <&kp LG(W)>;
-            key-positions = <19 18>;
+            key-positions = <18 19>;
         };
 
         reload {
