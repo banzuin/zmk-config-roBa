@@ -31,7 +31,7 @@
 
         reopentab {
             bindings = <&kp LS(LG(T))>;
-            key-positions = <20 21>;
+            key-positions = <18 19>;
         };
 
         eq {
@@ -40,12 +40,12 @@
         };
 
         closewindow {
-            bindings = <&kp LG(W)>;
-            key-positions = <18 19>;
+            bindings = <&kp LG(R)>;
+            key-positions = <20 21>;
         };
 
         reload {
-            bindings = <&kp LG(R)>;
+            bindings = <&kp LG(W)>;
             key-positions = <7 8>;
         };
 
